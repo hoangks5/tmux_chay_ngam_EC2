@@ -1,0 +1,24 @@
+1. Tạo session
+    tmux  (tạo ra session không đặt tên cho session).
+    tmux new -s <session_name> (tạo ra session và đặt tên cho session).
+2. Xem danh sách session
+    tmux ls
+3. Chuyển qua lại giữa session
+    tmux a -t <session_name>
+4. Xóa session
+    tmux kill-ses -t <session_name>  (xóa session cụ thể).
+    tmux kill-ses -a -t <session_a>  (xóa all session trừ session_a).
+    tmux kill-ses -a  (xóa all session).
+5. Tạo window trong session
+    ctrl + b + c 
+6. Switch sang window theo số thứ tự
+    ctrl + b + 0...9
+7. Tạo pane trong session
+    ctrl + b + “ (tạo theo chiều dọc)
+    ctrl + b + % (tạo theo chiều ngang)
+8. Xóa pane trong window
+    ctrl + b + x (xóa pane hiện đang đứng)
+9. Xóa window trong session
+    ctrl + b + & (xóa window hiện đang đứng)
+10. Thoát khỏi tmux để chạy ngầm
+    ctrl + b + d
