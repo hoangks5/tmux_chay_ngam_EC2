@@ -1,0 +1,1 @@
+# tmux_chay_ngam_EC2
